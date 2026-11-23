@@ -1,0 +1,222 @@
+2026-11-22 21:14:33 | INFO     | === Sistema Software FJ iniciado ===
+2026-11-22 21:14:33 | INFO     | Cliente registrado: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:14:33 | INFO     | Op 1 exitosa: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:14:33 | DEBUG    | Op 1 finalizada
+2026-11-22 21:14:33 | INFO     | Cliente registrado: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:14:33 | INFO     | Op 2 exitosa: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:14:33 | DEBUG    | Op 2 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 3 fallida: [FJ-101] Correo 'marta.correo' con formato inválido | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 3 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 4 fallida: [FJ-101] El nombre 'Carl0s 123' contiene caracteres no válidos | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 4 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 5 fallida: [FJ-102] Ya existe un cliente con documento 1047123456 | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 5 finalizada
+2026-11-22 21:14:33 | INFO     | Servicio agregado: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:14:33 | INFO     | Op 6 exitosa: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:14:33 | DEBUG    | Op 6 finalizada
+2026-11-22 21:14:33 | INFO     | Servicio agregado: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:14:33 | INFO     | Op 7 exitosa: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:14:33 | DEBUG    | Op 7 finalizada
+2026-11-22 21:14:33 | INFO     | Servicio agregado: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:14:33 | INFO     | Op 8 exitosa: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:14:33 | DEBUG    | Op 8 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 9 fallida: [FJ-201] Tarifa inválida para 'Sala Mala': -100 | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 9 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 10 fallida: [FJ-201] Nivel 'maestro' no existe. Use: basico, intermedio, experto | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 10 finalizada
+2026-11-22 21:14:33 | INFO     | Servicio agregado: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:14:33 | INFO     | Op 11 exitosa: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:14:33 | DEBUG    | Op 11 finalizada
+2026-11-22 21:14:33 | INFO     | Op 12 exitosa: $200,000.00
+2026-11-22 21:14:33 | DEBUG    | Op 12 finalizada
+2026-11-22 21:14:33 | INFO     | Op 13 exitosa: $406,980.00
+2026-11-22 21:14:33 | DEBUG    | Op 13 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 14 fallida: [FJ-201] Falta el parámetro 'horas' en la cotización | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 14 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 15 fallida: [FJ-401] Descuento fuera de rango: 1.5 | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 15 finalizada
+2026-11-22 21:14:33 | INFO     | Reserva creada: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:14:33 | INFO     | Op 16 exitosa: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:14:33 | DEBUG    | Op 16 finalizada
+2026-11-22 21:14:33 | INFO     | Reserva #11 confirmada
+2026-11-22 21:14:33 | INFO     | Reserva #11 procesada por $178,500.00
+2026-11-22 21:14:33 | DEBUG    | Fin del intento de procesamiento de la reserva #11
+2026-11-22 21:14:33 | INFO     | Op 17 exitosa: Cobrado $178,500.00
+2026-11-22 21:14:33 | DEBUG    | Op 17 finalizada
+2026-11-22 21:14:33 | INFO     | Reserva creada: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:14:33 | INFO     | Op 18 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:14:33 | DEBUG    | Op 18 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 19 fallida: [FJ-302] La reserva #12 debe estar CONFIRMADA para procesarse (está PENDIENTE) | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 19 finalizada
+2026-11-22 21:14:33 | INFO     | Reserva #12 cancelada
+2026-11-22 21:14:33 | INFO     | Op 20 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | CANCELADA | sin calcular
+2026-11-22 21:14:33 | DEBUG    | Op 20 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 21 fallida: [FJ-302] No se puede cancelar la reserva #12 en estado CANCELADA | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 21 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 22 fallida: [FJ-301] Parámetros rechazados por el servicio: La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25 | causa: [FJ-201] La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25
+2026-11-22 21:14:33 | DEBUG    | Op 22 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 23 fallida: [FJ-301] No se pudo crear la reserva: No existe cliente con documento 9999999 | causa: [FJ-101] No existe cliente con documento 9999999
+2026-11-22 21:14:33 | DEBUG    | Op 23 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 24 fallida: [FJ-301] No se pudo crear la reserva: El servicio 'Impresora 3D' no está disponible | causa: [FJ-202] El servicio 'Impresora 3D' no está disponible
+2026-11-22 21:14:33 | DEBUG    | Op 24 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 25 fallida: [FJ-202] El servicio 'Proyectores' no está disponible | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 25 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 26 fallida: [FJ-301] Falta la duración de la reserva | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 26 finalizada
+2026-11-22 21:14:33 | INFO     | Reserva creada: Reserva #16 | Luis Gómez | Asesoría Ciberseguridad | 2 h | PENDIENTE | sin calcular
+2026-11-22 21:14:33 | INFO     | Reserva #16 confirmada
+2026-11-22 21:14:33 | INFO     | Reserva #16 procesada por $291,312.00
+2026-11-22 21:14:33 | DEBUG    | Fin del intento de procesamiento de la reserva #16
+2026-11-22 21:14:33 | INFO     | Op 27 exitosa: Cobrado $291,312.00
+2026-11-22 21:14:33 | DEBUG    | Op 27 finalizada
+2026-11-22 21:14:33 | WARNING  | Op 28 fallida: [FJ-201] Horas inválidas para sala: dos | causa: None
+2026-11-22 21:14:33 | DEBUG    | Op 28 finalizada
+2026-11-22 21:14:33 | INFO     | === Sistema finalizado: {'clientes': 2, 'servicios': 4, 'reservas': 3, 'facturado': 469812.0} | {'exitosas': 13, 'fallidas': 15} ===
+2026-11-22 21:24:03 | INFO     | === Sistema Software FJ iniciado ===
+2026-11-22 21:24:03 | INFO     | Cliente registrado: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:24:03 | INFO     | Op 1 exitosa: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:24:03 | DEBUG    | Op 1 finalizada
+2026-11-22 21:24:03 | INFO     | Cliente registrado: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:24:03 | INFO     | Op 2 exitosa: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:24:03 | DEBUG    | Op 2 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 3 fallida: [FJ-101] Correo 'marta.correo' con formato inválido | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 3 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 4 fallida: [FJ-101] El nombre 'Carl0s 123' contiene caracteres no válidos | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 4 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 5 fallida: [FJ-102] Ya existe un cliente con documento 1047123456 | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 5 finalizada
+2026-11-22 21:24:03 | INFO     | Servicio agregado: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:24:03 | INFO     | Op 6 exitosa: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:24:03 | DEBUG    | Op 6 finalizada
+2026-11-22 21:24:03 | INFO     | Servicio agregado: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:24:03 | INFO     | Op 7 exitosa: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:24:03 | DEBUG    | Op 7 finalizada
+2026-11-22 21:24:03 | INFO     | Servicio agregado: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:24:03 | INFO     | Op 8 exitosa: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:24:03 | DEBUG    | Op 8 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 9 fallida: [FJ-201] Tarifa inválida para 'Sala Mala': -100 | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 9 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 10 fallida: [FJ-201] Nivel 'maestro' no existe. Use: basico, intermedio, experto | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 10 finalizada
+2026-11-22 21:24:03 | INFO     | Servicio agregado: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:24:03 | INFO     | Op 11 exitosa: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:24:03 | DEBUG    | Op 11 finalizada
+2026-11-22 21:24:03 | INFO     | Op 12 exitosa: $200,000.00
+2026-11-22 21:24:03 | DEBUG    | Op 12 finalizada
+2026-11-22 21:24:03 | INFO     | Op 13 exitosa: $406,980.00
+2026-11-22 21:24:03 | DEBUG    | Op 13 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 14 fallida: [FJ-201] Falta el parámetro 'horas' en la cotización | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 14 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 15 fallida: [FJ-401] Descuento fuera de rango: 1.5 | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 15 finalizada
+2026-11-22 21:24:03 | INFO     | Reserva creada: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:24:03 | INFO     | Op 16 exitosa: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:24:03 | DEBUG    | Op 16 finalizada
+2026-11-22 21:24:03 | INFO     | Reserva #11 confirmada
+2026-11-22 21:24:03 | INFO     | Reserva #11 procesada por $178,500.00
+2026-11-22 21:24:03 | DEBUG    | Fin del intento de procesamiento de la reserva #11
+2026-11-22 21:24:03 | INFO     | Op 17 exitosa: Cobrado $178,500.00
+2026-11-22 21:24:03 | DEBUG    | Op 17 finalizada
+2026-11-22 21:24:03 | INFO     | Reserva creada: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:24:03 | INFO     | Op 18 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:24:03 | DEBUG    | Op 18 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 19 fallida: [FJ-302] La reserva #12 debe estar CONFIRMADA para procesarse (está PENDIENTE) | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 19 finalizada
+2026-11-22 21:24:03 | INFO     | Reserva #12 cancelada
+2026-11-22 21:24:03 | INFO     | Op 20 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | CANCELADA | sin calcular
+2026-11-22 21:24:03 | DEBUG    | Op 20 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 21 fallida: [FJ-302] No se puede cancelar la reserva #12 en estado CANCELADA | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 21 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 22 fallida: [FJ-301] Parámetros rechazados por el servicio: La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25 | causa: [FJ-201] La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25
+2026-11-22 21:24:03 | DEBUG    | Op 22 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 23 fallida: [FJ-301] No se pudo crear la reserva: No existe cliente con documento 9999999 | causa: [FJ-101] No existe cliente con documento 9999999
+2026-11-22 21:24:03 | DEBUG    | Op 23 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 24 fallida: [FJ-301] No se pudo crear la reserva: El servicio 'Impresora 3D' no está disponible | causa: [FJ-202] El servicio 'Impresora 3D' no está disponible
+2026-11-22 21:24:03 | DEBUG    | Op 24 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 25 fallida: [FJ-202] El servicio 'Proyectores' no está disponible | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 25 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 26 fallida: [FJ-301] Falta la duración de la reserva | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 26 finalizada
+2026-11-22 21:24:03 | INFO     | Reserva creada: Reserva #16 | Luis Gómez | Asesoría Ciberseguridad | 2 h | PENDIENTE | sin calcular
+2026-11-22 21:24:03 | INFO     | Reserva #16 confirmada
+2026-11-22 21:24:03 | INFO     | Reserva #16 procesada por $291,312.00
+2026-11-22 21:24:03 | DEBUG    | Fin del intento de procesamiento de la reserva #16
+2026-11-22 21:24:03 | INFO     | Op 27 exitosa: Cobrado $291,312.00
+2026-11-22 21:24:03 | DEBUG    | Op 27 finalizada
+2026-11-22 21:24:03 | WARNING  | Op 28 fallida: [FJ-201] Horas inválidas para sala: dos | causa: None
+2026-11-22 21:24:03 | DEBUG    | Op 28 finalizada
+2026-11-22 21:24:03 | INFO     | === Sistema finalizado: {'clientes': 2, 'servicios': 4, 'reservas': 3, 'facturado': 469812.0} | {'exitosas': 13, 'fallidas': 15} ===
+2026-11-22 21:29:20 | INFO     | === Sistema Software FJ iniciado ===
+2026-11-22 21:29:20 | INFO     | Cliente registrado: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:29:20 | INFO     | Op 1 exitosa: Cliente #1: Ana Pérez (Doc. ******3456, ana.perez@correo.com)
+2026-11-22 21:29:20 | DEBUG    | Op 1 finalizada
+2026-11-22 21:29:20 | INFO     | Cliente registrado: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:29:20 | INFO     | Op 2 exitosa: Cliente #2: Luis Gómez (Doc. ****3456, luisg@empresa.co)
+2026-11-22 21:29:20 | DEBUG    | Op 2 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 3 fallida: [FJ-101] Correo 'marta.correo' con formato inválido | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 3 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 4 fallida: [FJ-101] El nombre 'Carl0s 123' contiene caracteres no válidos | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 4 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 5 fallida: [FJ-102] Ya existe un cliente con documento 1047123456 | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 5 finalizada
+2026-11-22 21:29:20 | INFO     | Servicio agregado: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:29:20 | INFO     | Op 6 exitosa: Sala 'Sala Ejecutiva' - capacidad 10 personas - $50,000/hora
+2026-11-22 21:29:20 | DEBUG    | Op 6 finalizada
+2026-11-22 21:29:20 | INFO     | Servicio agregado: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:29:20 | INFO     | Op 7 exitosa: Equipo 'Portátiles' - 5 unidades - $15,000/hora
+2026-11-22 21:29:20 | DEBUG    | Op 7 finalizada
+2026-11-22 21:29:20 | INFO     | Servicio agregado: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:29:20 | INFO     | Op 8 exitosa: Asesoría 'Asesoría Ciberseguridad' en Seguridad informática (nivel experto) - $80,000/hora
+2026-11-22 21:29:20 | DEBUG    | Op 8 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 9 fallida: [FJ-201] Tarifa inválida para 'Sala Mala': -100 | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 9 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 10 fallida: [FJ-201] Nivel 'maestro' no existe. Use: basico, intermedio, experto | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 10 finalizada
+2026-11-22 21:29:20 | INFO     | Servicio agregado: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:29:20 | INFO     | Op 11 exitosa: Equipo 'Proyectores' - 0 unidades - $10,000/hora
+2026-11-22 21:29:20 | DEBUG    | Op 11 finalizada
+2026-11-22 21:29:20 | INFO     | Op 12 exitosa: $200,000.00
+2026-11-22 21:29:20 | DEBUG    | Op 12 finalizada
+2026-11-22 21:29:20 | INFO     | Op 13 exitosa: $406,980.00
+2026-11-22 21:29:20 | DEBUG    | Op 13 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 14 fallida: [FJ-201] Falta el parámetro 'horas' en la cotización | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 14 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 15 fallida: [FJ-401] Descuento fuera de rango: 1.5 | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 15 finalizada
+2026-11-22 21:29:20 | INFO     | Reserva creada: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:29:20 | INFO     | Op 16 exitosa: Reserva #11 | Ana Pérez | Sala Ejecutiva | 3 h | PENDIENTE | sin calcular
+2026-11-22 21:29:20 | DEBUG    | Op 16 finalizada
+2026-11-22 21:29:20 | INFO     | Reserva #11 confirmada
+2026-11-22 21:29:20 | INFO     | Reserva #11 procesada por $178,500.00
+2026-11-22 21:29:20 | DEBUG    | Fin del intento de procesamiento de la reserva #11
+2026-11-22 21:29:20 | INFO     | Op 17 exitosa: Cobrado $178,500.00
+2026-11-22 21:29:20 | DEBUG    | Op 17 finalizada
+2026-11-22 21:29:20 | INFO     | Reserva creada: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:29:20 | INFO     | Op 18 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | PENDIENTE | sin calcular
+2026-11-22 21:29:20 | DEBUG    | Op 18 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 19 fallida: [FJ-302] La reserva #12 debe estar CONFIRMADA para procesarse (está PENDIENTE) | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 19 finalizada
+2026-11-22 21:29:20 | INFO     | Reserva #12 cancelada
+2026-11-22 21:29:20 | INFO     | Op 20 exitosa: Reserva #12 | Luis Gómez | Portátiles | 5 h | CANCELADA | sin calcular
+2026-11-22 21:29:20 | DEBUG    | Op 20 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 21 fallida: [FJ-302] No se puede cancelar la reserva #12 en estado CANCELADA | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 21 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 22 fallida: [FJ-301] Parámetros rechazados por el servicio: La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25 | causa: [FJ-201] La sala 'Sala Ejecutiva' admite 10 personas, se pidieron 25
+2026-11-22 21:29:20 | DEBUG    | Op 22 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 23 fallida: [FJ-301] No se pudo crear la reserva: No existe cliente con documento 9999999 | causa: [FJ-101] No existe cliente con documento 9999999
+2026-11-22 21:29:20 | DEBUG    | Op 23 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 24 fallida: [FJ-301] No se pudo crear la reserva: El servicio 'Impresora 3D' no está disponible | causa: [FJ-202] El servicio 'Impresora 3D' no está disponible
+2026-11-22 21:29:20 | DEBUG    | Op 24 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 25 fallida: [FJ-202] El servicio 'Proyectores' no está disponible | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 25 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 26 fallida: [FJ-301] Falta la duración de la reserva | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 26 finalizada
+2026-11-22 21:29:20 | INFO     | Reserva creada: Reserva #16 | Luis Gómez | Asesoría Ciberseguridad | 2 h | PENDIENTE | sin calcular
+2026-11-22 21:29:20 | INFO     | Reserva #16 confirmada
+2026-11-22 21:29:20 | INFO     | Reserva #16 procesada por $291,312.00
+2026-11-22 21:29:20 | DEBUG    | Fin del intento de procesamiento de la reserva #16
+2026-11-22 21:29:20 | INFO     | Op 27 exitosa: Cobrado $291,312.00
+2026-11-22 21:29:20 | DEBUG    | Op 27 finalizada
+2026-11-22 21:29:20 | WARNING  | Op 28 fallida: [FJ-201] Horas inválidas para sala: dos | causa: None
+2026-11-22 21:29:20 | DEBUG    | Op 28 finalizada
+2026-11-22 21:29:20 | INFO     | === Sistema finalizado: {'clientes': 2, 'servicios': 4, 'reservas': 3, 'facturado': 469812.0} | {'exitosas': 13, 'fallidas': 15} ===
